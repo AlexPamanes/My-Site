@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* color: #40514E; */
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+header {
+  background-color: red;
+  margin-top: 10%;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  position: absolute;
+  left: 400px;
+  top: 2.8rem;
+  margin: 0 auto;
+  font-size: 5.625rem; /* R means ignore all of the parents settings for the font size and just set it to this relative to the root */
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999e;
+}
+
+hr {
+  border: dotted #dbedf3 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+p {
+  line-height: 2;
+}
+
+.mandala {
+  height: 60px;
+}
+
+.bussines {
+  position: absolute;
+  height: 150px;
+  top: 200px;
+  left: 560px;
+}
+
+.meditation {
+  height: 60px;
+}
+
+#header {
+  position: absolute;
+  left: 470px;
+  top: 355px;
+  font-size: 1.5rem;
+}
+
+.retrato {
+  height: 180px;
+  position: relative;
+  bottom: 30px;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 400px;
+}
+
+.middle-container {
+  margin: 80px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 30px 0 20px;
+  padding-bottom: 2px;
+}
+
+.bottom-crypto {
+  position: absolute;
+  right: 10px;
+  height: 50px;
+  bottom: 3px;
+}
+
+.top-success {
+  position: absolute;
+  height: 60px;
+  left: 325px;
+  top: 70px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.social-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 20px auto 60px;
+}
+
+.napoleon {
+  position: relative;
+  top: 30px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 30px 0 10px;
+  position: relative;
+}
+
+.linkedin {
+  width: 35px;
+  position: relative;
+  top: 15px;
+}
+
+.whatsapp {
+  width: 35px;
+  position: relative;
+  top: 15px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+  .top-container {
+    background-color: #eaf6f6;
+    position: relative;
+    padding-top: 315px;
+    width: 405px;
+  }
+
+  .bussines {
+    position: absolute;
+    height: 110px;
+    top: 150px;
+    left: 145px;
+  }
+  .bottom-crypto {
+    position: absolute;
+    right: 9px;
+    height: 35px;
+    bottom: 3px;
+  }
+
+  h1 {
+    font-family: "Sacramento", cursive;
+    position: absolute;
+    left: 95px;
+    top: 2.8rem;
+    margin: 0 auto;
+    font-size: 2.625rem;
+  }
+
+  .top-success {
+    position: absolute;
+    left: 23px;
+    top: 50px;
+    height: 55px;
+  }
+
+  #header {
+    position: absolute;
+    left: 60px;
+    top: 280px;
+    font-size: 20px;
+  }
+
+  h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .retrato {
+    height: 180px;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .intro {
+    width: 30%;
+    margin: auto;
+    position: relative;
+  }
+
+  .bottom-container {
+    width: 405px;
+  }
+}
+
+ /* @media screen and (max-width: 700px) {
+  .top-container {
+    background-color: #eaf6f6;
+    position: relative;
+    padding-top: 350px;
+    width: 715px;
+  }
+
+  .bussines {
+    position: absolute;
+    height: 130px;
+    top: 160px;
+    left: 280px;
+  }
+  .bottom-crypto {
+    position: absolute;
+    right: 20px;
+    height: 40px;
+    bottom: 3px;
+  }
+
+  h1 {
+    font-family: "Sacramento", cursive;
+    position: absolute;
+    left: 125px;
+    top: 20px;
+    margin: 0 auto;
+    font-size: 5rem;
+  }
+
+  .top-success {
+    position: absolute;
+    left: 52px;
+    top: 40px;
+    height: 60px;
+  }
+
+  #header {
+    position: absolute;
+    left: 180px;
+    top: 300px;
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 20px;
+  }
+
+  .retrato {
+    height: 180px;
+    position: relative;
+    bottom: 60px;
+  }
+
+  .intro {
+    width: 30%;
+    margin: auto;
+    position: relative;
+  } 
+
+  .bottom-container {
+    width: 715px;
+
+  }
+} */
